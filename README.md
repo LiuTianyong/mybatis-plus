@@ -99,4 +99,8 @@ public class User implements Serializable {
         List<User> userList = userMapper.selectList(null);
         userList.forEach(System.out::println);
     }
+
 ```
+### 剩余CRUD见实例代码：
+    com\usy\MybatisPlusDemoApplicationTests.java
+    com\usy\WrapperTest.java
